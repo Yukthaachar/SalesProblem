@@ -6,7 +6,7 @@ public class number_5 {
         int[]days=new int[]{31,29,31,30,31,30,31,31,30,31,30,31}; 
         int sales[][] =new int[months][31];
         int total=0,grandtotal=0;
-        Scanner scanner=new Scanner(System.in);
+        Scanner in=new Scanner(System.in);
         for (int i=0;i<months;i++){
             System.out.println("Enter daily sales for Month "+(i+1)+":");
             for (int j=0;j<days[i];j++){
